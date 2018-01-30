@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">Formula 1 quiz app</string>
+
+    <!--String for name CheckBox xml-->
+    <string name="your_name">Your name</string>
+
+    <!--Stirng for question 1 xml-->
+    <string name="question_1">1. Which driver is current F1 world champion?</string>
+    <!--Stirng for question 2 xml-->
+    <string name="question_2">2. Which team is current constructors’ champion?</string>
+    <!--Stirng for question 3 xml-->
+    <string name="question_3">3. Name the driver:</string>
+    <!--Stirng for question 4 xml-->
+    <string name="question_4">4. Name the team:</string>
+    <!--Stirng for question 5 xml-->
+    <string name="question_5">5. Which 2 circuits were not included in 2017 F1 calendar?</string>
+    <!--Stirng for question 6 xml-->
+    <string name="question_6">6. How many race wins Max Verstappen has?</string>
+    <!--Stirng for question 7 xml-->
+    <string name="question_7">7. How many F1 championship wins does Fernando Alonso has?</string>
+    <!--Stirng for question 8 xml-->
+    <string name="question_8">8. How many Gran Prix where in F1 2017 season?</string>
+    <!--Stirng for question 9 xml-->
+    <string name="question_9">9. In which two 2017 Grand Prix both Scuderia Ferrari drivers got first and second place?</string>
+    <!--Stirng for question 10 xml-->
+    <string name="question_10">10. Has Nico Rosberg ever won a drivers F1 world championship?</string>
+
+    <!--Answer to question 1 Sbeastian Vettel radioButton-->
+    <string name="vet_q1">Sebastian Vettel</string>
+    <!--Answer to question 1 Daniel Ricciardo radioButton-->
+    <string name="ric_q1">Daniel Ricciardo</string>
+    <!--Answer to question 1 Fernando Alonso radioButton-->
+    <string name="alo_q1">Fernando Alonso</string>
+    <!--Answer to question 1 Lewis Hamilton radioButton-->
+    <string name="ham_q1">Lewis Hamilton</string>
+
+    <!--Answer to question 2 Ferrari radioButton-->
+    <string name="fer_q2">Ferrari</string>
+    <!--Answer to question 2 Red Bull radioButton-->
+    <string name="rb_q2">Red Bull Racing-TAG Heuer</string>
+    <!--Answer to question 2 Mercedes radioButton-->
+    <string name="mer_q2">Mercedes</string>
+    <!--Answer to question 2 McLaren radioButton-->
+    <string name="mcl_q2">McLaren-Honda</string>
+
+    <!--Answer to question 3 Esteban Ocon radioButton-->
+    <string name="oco_q3">Esteban Ocon</string>
+    <!--Answer to question 3 Lance Stroll radioButton-->
+    <string name="str_q3">Lance Stroll</string>
+    <!--Answer to question 3 Stoffel Vandoorne radioButton-->
+    <string name="van_q3">Stoffel Vandoorne</string>
+    <!--Answer to question 3 Valtteri Bottas radioButton-->
+    <string name="bot_q3">Valtteri Bottas</string>
+
+    <!--Answer to question 4 Force India radioButton-->
+    <string name="force_india_q4">Sahara Force India F1 Team</string>
+    <!--Answer to question 4 Haas radioButton-->
+    <string name="haas_q4">Haas F1 Team</string>
+    <!--Answer to question 4 Renault radioButton-->
+    <string name="renault_q4">Renault Sport Formula One Team</string>
+    <!--Answer to question 4 Sauber F1 Team radioButton-->
+    <string name="sauber_q4">Sauber F1 Team</string>
+
+    <!--Answer to question 5 Korea checkBox-->
+    <string name="korea_q5">Korean Grand Prix, Korea International Circuit</string>
+    <!--Answer to question 5 Azerbaijan checkBox-->
+    <string name="azerbaijan_q5">Azerbaijan Grand Prix, Baku City Circuit</string>
+    <!--Answer to question 5 Abu Dhabi checkBox-->
+    <string name="abu_dhabi_q5">Abu Dhabi Grand Prix, Yas Marina Circuit</string>
+    <!--Answer to question 5 United States checkBox-->
+    <string name="united_states_q5">United States Grand Prix, Circuit of the Americas</string>
+    <!--Answer to question 5 Germany checkBox-->
+    <string name="germany_q5">German Grand Prix, Nürburgring</string>
+
+    <!--Answer to question 9 Hungary checkBox-->
+    <string name="hungary_q9">Hungarian Grand Prix</string>
+    <!--Answer to question 9 Russia checkBox-->
+    <string name="russia_q9">Russian Grand Prix</string>
+    <!--Answer to question 9 Australia checkBox-->
+    <string name="australia_q9">Australian Grand Prix</string>
+    <!--Answer to question 9 Monaco checkBox-->
+    <string name="monaco_q9">Monaco Grand Prix</string>
+
+    <!--Answer to question 10 yes radioButton-->
+    <string name="yes_q10">Yes</string>
+    <!--Answer to question 10 no radioButton-->
+    <string name="no_q10">No</string>
+
+    <!--Submit answers button-->
+    <string name="submit_answers">Submit answers</string>
+
+</resources>

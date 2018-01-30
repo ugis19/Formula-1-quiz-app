@@ -1,0 +1,493 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/your_name_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="@string/your_name"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_1"
+            android:textAllCaps="true"
+            android:textSize="13sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q1_sebastian_vettel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/vet_q1"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q1_daniel_ricciardo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/ric_q1"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q1_fernando_alonso"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/alo_q1"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q1_lewis_hamilton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="24dp"
+                android:text="@string/ham_q1"
+                android:textSize="13sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_2"
+            android:textAllCaps="true"
+            android:textSize="13sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q2_ferrari"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/fer_q2"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q2_red_bull"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/rb_q2"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q2_mercedes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/mer_q2"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q2_maclaren"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="24dp"
+                android:text="@string/mcl_q2"
+                android:textSize="13sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_3"
+            android:textAllCaps="true"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/valtteri_bottas" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q3_esteban_ocon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/oco_q3"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q3_lance_stroll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/str_q3"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q3_stoffel_vandoorne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/van_q3"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q3_valtteri_bottas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="24dp"
+                android:text="@string/bot_q3"
+                android:textSize="13sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_4"
+            android:textAllCaps="true"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/force_india_2017" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q4_force_india"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/force_india_q4"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q4_hass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/haas_q4"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q4_renault"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/renault_q4"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q4_sauber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="24dp"
+                android:text="@string/sauber_q4"
+                android:textSize="13sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_5"
+            android:textAllCaps="true"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/q5_korea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/korea_q5"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/q5_azerbaijan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/azerbaijan_q5"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/q5_abu_dhabi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/abu_dhabi_q5"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/q5_united_states"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/united_states_q5"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/q5_germany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="24dp"
+            android:text="@string/germany_q5"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_6"
+            android:textAllCaps="true"
+            android:textSize="13sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q6_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="0"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q6_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="3"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q6_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="11"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q6_37"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="24dp"
+                android:text="37"
+                android:textSize="13sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_7"
+            android:textAllCaps="true"
+            android:textSize="13sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q7_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="0"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="1"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q7_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="2"
+                android:textSize="13dp" />
+
+            <RadioButton
+                android:id="@+id/q7_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="24dp"
+                android:text="3"
+                android:textSize="13sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_8"
+            android:textAllCaps="true"
+            android:textSize="13sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q8_14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="14"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q8_17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="17"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q8_20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="20"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q8_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:paddingLeft="24dp"
+                android:text="31"
+                android:textSize="13sp" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_9"
+            android:textAllCaps="true"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/q9_hungary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/hungary_q9"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/q9_russia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/russia_q9"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/q9_australia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="24dp"
+            android:text="@string/australia_q9"
+            android:textSize="13sp" />
+
+        <CheckBox
+            android:id="@+id/q9_monaco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:paddingLeft="24dp"
+            android:text="@string/monaco_q9"
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@string/question_10"
+            android:textAllCaps="true"
+            android:textSize="13sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/q10_yes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/yes_q10"
+                android:textSize="13sp" />
+
+            <RadioButton
+                android:id="@+id/q10_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="24dp"
+                android:text="@string/no_q10"
+                android:textSize="13sp" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"
+            android:onClick="submitAnswers"
+            android:text="@string/submit_answers"
+            android:textAllCaps="true" />
+
+    </LinearLayout>
+</ScrollView>
